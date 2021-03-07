@@ -1,6 +1,7 @@
 # cack
 
 chmod +x install
+
 ./install
 
 Now you can run 'cack #'
