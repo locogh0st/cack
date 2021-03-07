@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ "$EUID" -ne 0 ] 
+then echo "Please run as root"
+
+else (
+cp bash.cack /usr/local/bin/cack
+mkdir /usr/local/share/cack
+cp -r cack/cack.* /usr/local/share/cack/
+chmod +x cack
+)
+fi
+exit
