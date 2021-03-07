@@ -1,5 +1,0 @@
-#!/bin/bash
-
-cp -r cack/ /usr/local/share/
-chmod +x cack
-cp cack.sh /usr/local/bin/cack
